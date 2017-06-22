@@ -18,6 +18,9 @@ ProgressHUB.prototype.setDeterminateMode = function (mode) {
         this.determinateMode = determinateMode[mode];
     }
 };
+ProgressHUB.prototype.showSimpleTextWithBackgroundColor = function (message = 'default',duration = 2000, backgroundColor = '#000000') {
+    RNProgressHUB.showSimpleTextWithBackgroundColor(message,duration,backgroundColor);
+};
 ProgressHUB.prototype.showSimpleText = function (message = 'default',duration = 2000) {
     RNProgressHUB.showSimpleText(message,duration);
 };

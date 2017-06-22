@@ -10,6 +10,8 @@
 
 @interface RNProgressHUB : NSObject<RCTBridgeModule>
 
++(UIColor *)colorFromHexString:(NSString *)hexString;
++ (CGFloat) colorComponentFrom: (NSString *) string start: (NSUInteger) start length: (NSUInteger) length;
 
 
 @end
