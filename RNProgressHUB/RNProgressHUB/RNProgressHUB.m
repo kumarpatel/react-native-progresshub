@@ -9,6 +9,7 @@
 #import "RNProgressHUB.h"
 #import "MBProgressHUD.h"
 
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, RNProgressHUBMode) {
     /// Ring-shaped progress view.

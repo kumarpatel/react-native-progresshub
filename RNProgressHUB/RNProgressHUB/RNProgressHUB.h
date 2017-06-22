@@ -7,6 +7,7 @@
 //
 
 #import "RCTBridgeModule.h"
+#import <UIKit/UIKit.h>
 
 @interface RNProgressHUB : NSObject<RCTBridgeModule>
 
